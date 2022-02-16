@@ -78,4 +78,19 @@ b += 9;
 c += 7;
 
 // Экранирование буквенных кавычек в строках
+I am a "double quoted" string inside "double quotes".
 const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+
+// Заключение строк в одинарные кавычки
+const myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+//Escape-последовательности в строках
+
+const myStr =  'FirstLine\n\t\\SecondLine\nThirdLine';
+
+// Объединение строк с помощью оператора Plus
+const myStr = "This is the start. " + "This is the end.";
+// Объединение строк с помощью оператора «плюс равно»
+let myStr = 'This is the first sentence.';
+myStr +=' This is the second sentence.';
