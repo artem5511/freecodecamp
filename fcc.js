@@ -94,3 +94,58 @@ const myStr = "This is the start. " + "This is the end.";
 // Объединение строк с помощью оператора «плюс равно»
 let myStr = 'This is the first sentence.';
 myStr +=' This is the second sentence.';
+
+//Создание строк с переменными
+const myName = "Artem";
+const myStr = "My name is" + myName + "and I am well";
+
+// Добавление переменных к строкам
+const someAdjective = "very good";
+let myStr = "Learning to code is ";
+myStr += someAdjective
+
+// Найдите длину строки
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+console.log(lastName.length)
+
+// Only change code below this line
+lastNameLength = lastName.length;
+
+//Используйте нотацию скобок, чтобы найти первый символ в строке
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; 
+
+//Понимание неизменности строк
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+//myStr[0] = "H"; // Change this line
+// Only change code above this line
+myStr = "Hello World";
+
+// Используйте нотацию скобок, чтобы найти N-й символ в строке
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2];
+
+// Используйте нотацию скобок, чтобы найти последний символ в строке
+// Setup
+const lastName = "Lovelace";
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1];
+
+// Используйте нотацию скобок, чтобы найти N-последний символ в строке
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
