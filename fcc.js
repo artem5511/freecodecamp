@@ -148,4 +148,15 @@ const lastLetterOfLastName = lastName[lastName.length - 1];
 const lastName = "Lovelace";
 
 // Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; 
+
+//Пустые слова
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "I today " + myVerb + " becouse " + myAdverb + " runs " + myNoun + " yes " + myAdjective + " ."; // Change this line
+// Only change code above this line
+console.log(wordBlanks)
