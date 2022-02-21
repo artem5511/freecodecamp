@@ -160,3 +160,29 @@ const myAdverb = "quickly";
 const wordBlanks = "I today " + myVerb + " becouse " + myAdverb + " runs " + myNoun + " yes " + myAdjective + " ."; // Change this line
 // Only change code above this line
 console.log(wordBlanks)
+
+//Сохранение нескольких значений в одной переменной с использованием массивов JavaScript
+const myArray = ["cereal", 21, "meat"]; 
+
+//Вложение одного массива в другой массив
+const myArray = [["rise", 11],[13, "fish"]];
+
+//Доступ к данным массива с помощью индексов
+const myArray = [50, 60, 70];
+const myData = myArray[0]
+
+//Измените данные массива с помощью индексов
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+
+//Доступ к многомерным массивам с индексами
+const myArray = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+  ];
+  
+  const myData = myArray[2][1];
+  
+  //
