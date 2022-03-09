@@ -1,2 +1,41 @@
 //Изменить цвет текста
 <h2 style="color: red;">CatPhotoApp</h2>
+
+//Используйте селекторы CSS для стилизации элементов
+<style>
+  h2 {
+    color: blue;
+    }
+    </style>
+<h2>CatPhotoApp</h2>
+
+//Используйте класс CSS для стилизации элемента
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+<h2 class="red-text">CatPhotoApp</h2>
+
+//Стилизовать несколько элементов с помощью класса CSS
+
+//Изменить размер шрифта элемента
+<style>
+  .red-text {
+    color: red;
+    }
+    p {font-size: 16px;}
+</style>
+
+//Импортировать шрифт Google
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+  h2 {font-family: lobster;}
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
