@@ -56,3 +56,10 @@
     font-family: monospace;
   }
 </style>
+
+//Размер ваших изображений
+
+<style>
+  .larger-image { width: 300px; }
+  </style>
+
