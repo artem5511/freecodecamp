@@ -81,3 +81,11 @@ border-radius: 50%;
 
 //Установить идентификатор элемента
 <form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
+
+//Используйте атрибут id для стилизации элемента
+#cat-photo-form {
+  background: green;
+}
+
+//
+Отрегулируйте отступ элемента
