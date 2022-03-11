@@ -135,4 +135,13 @@ border-radius: 50%;
     padding: 40px 20px 20px 40px;
   }
   //Используйте нотацию по часовой стрелке для указания поля элемента
-  
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    margin: 40px 20px 20px 40px;
+  }
+  Используйте селекторы атрибутов для стилизации элементов
+  [type='checkbox'] {
+    margin: 10px 0px 15px 0px;
+  }
+  //Понимание абсолютных и относительных единиц
