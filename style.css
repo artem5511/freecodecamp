@@ -145,3 +145,10 @@ border-radius: 50%;
     margin: 10px 0px 15px 0px;
   }
   //Понимание абсолютных и относительных единиц
+  red-box {
+    background-color: red;
+    margin: 20px 40px 20px 40px;
+    padding: 1.5em;
+  }
+
+  //Стиль элемента HTML Body
