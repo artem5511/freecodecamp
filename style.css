@@ -63,3 +63,10 @@
   .larger-image { width: 300px; }
   </style>
 
+//Добавьте границы вокруг ваших элементов
+
+<style>
+.thick-green-border {border-color: green;border-width: 10px; border-style: solid;}
+</style>
+
+//Добавьте закругленные углы с радиусом границы
