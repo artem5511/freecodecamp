@@ -73,3 +73,11 @@
 border-radius: 10px
 //Создание круглых изображений с радиусом границы
 border-radius: 50%;
+
+//Присвоить цвет фона элементу div
+.silver-background {
+  background-color: silver;
+}
+
+//Установить идентификатор элемента
+<form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
