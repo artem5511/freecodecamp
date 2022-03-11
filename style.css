@@ -152,3 +152,50 @@ border-radius: 50%;
   }
 
   //Стиль элемента HTML Body
+  <style>
+ body {
+   background-color: black;
+ }
+</style>
+
+//<style>
+body {
+  background-color: black;
+  color: green;
+  font-family: monospace;
+}
+
+</style>
+
+<h1>Hello World</h1>
+
+//Отдайте предпочтение одному стилю перед другим
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+    }
+    .pink-text {
+      color: pink;
+    }
+</style>
+<h1 class="pink-text">Hello World!</h1>
+
+//Переопределить стили в последующем CSS
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+
+//Переопределить объявления классов, изменив атрибуты идентификатора стиля
