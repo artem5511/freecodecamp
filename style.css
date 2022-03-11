@@ -108,3 +108,31 @@ border-radius: 50%;
     padding: 20px;
     margin: -15px;  
    }
+
+   //Добавьте разные отступы к каждой стороне элемента
+   .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  //Добавьте разные поля к каждой стороне элемента
+  blue-box {
+    background-color: blue;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  //Используйте нотацию по часовой стрелке, чтобы указать отступ элемента
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 40px 20px 20px 40px;
+  }
+  //Используйте нотацию по часовой стрелке для указания поля элемента
+  
