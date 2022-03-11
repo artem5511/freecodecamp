@@ -89,3 +89,22 @@ border-radius: 50%;
 
 //
 Отрегулируйте отступ элемента
+.red-box {
+  background-color: crimson;
+  color: #fff;
+  padding: 20px;}
+
+//Отрегулируйте поле элемента
+  .blue-box {
+  background-color: blue;
+  color: #fff;
+  padding: 20px;
+  margin: 20px; 
+  }
+  //Добавить отрицательное поле к элементу
+   .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;  
+   }
