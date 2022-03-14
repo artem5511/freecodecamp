@@ -207,4 +207,8 @@ console.log(myArray)
 // Список покупок
 const myList = [["Brendy", 3],["Weesky", 5],["Vodka", 1],["Beer", 10],["Vino", 7],["Water", 15]];
 
-
+//Передача значений функциям с аргументами
+function functionWithArgs(one, two) {
+  console.log(one+two);
+}
+functionWithArgs(7,  9);
