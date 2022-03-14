@@ -18,3 +18,10 @@ function functionWithArgs(one, two) {
     return num * 5;
   }
   const answer = timesFive(9)
+
+  //Глобальный охват и функции
+  const myGlobal=10;
+oopsGlobal=5;
+function fun1(x) {
+  x=5
+}
