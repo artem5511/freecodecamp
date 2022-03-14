@@ -13,4 +13,8 @@ function functionWithArgs(one, two) {
   }
   functionWithArgs(7,  9);
 
-  //
+  //Возврат значения из функции с возвратом
+  function timesFive(num) {
+    return num * 5;
+  }
+  const answer = timesFive(9)
