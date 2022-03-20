@@ -8,3 +8,7 @@
   h4 {
     text-align: center;
     height: 25px;
+
+    //Use the strong Tag to Make Text Bold
+    //Используйте сильный тег, чтобы сделать текст жирным
+    <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at <strong>Stanford University</strong>.</p>
