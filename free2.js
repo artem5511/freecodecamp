@@ -31,4 +31,21 @@ function reusableFunction() {
       return true; // Change this line
     
       // Only change code above this line
-    }
+    function trueOrFalse(wasThatTrue) {
+  if (trueOrFalse) {
+    return "Yes, that was true";
+  }
+  // Only change code below this line
+    return "No, that was false";
+  // Only change code above this line
+}
+
+//Use Conditional Logic with If Statements
+function trueOrFalse(wasThatTrue) {
+  if (trueOrFalse) {
+    return "Yes, that was true";
+  }
+  // Only change code below this line
+    return "No, that was false";
+  // Only change code above this line
+}
