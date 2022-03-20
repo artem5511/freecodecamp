@@ -1,0 +1,10 @@
+//Adjust the Width of an Element Using the width Property
+.fullCard {
+    width: 245px;
+   }
+
+//Отрегулируйте высоту элемента, используя свойство height
+<style>
+  h4 {
+    text-align: center;
+    height: 25px;
