@@ -51,3 +51,18 @@ function trueOrFalse(wasThatTrue) {
 }
 
 trueOrFalse(false);
+
+//Comparison with the Equality Operator
+//Сравнение с оператором равенства
+
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
+testEqual(12);
+testEqual("12");
