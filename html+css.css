@@ -18,3 +18,6 @@
       <h4>Google</h4>
       <p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p>
     </div>
+
+    //Используйте тег em для выделения текста курсивом
+    <p><em>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</em></p>
