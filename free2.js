@@ -66,3 +66,28 @@ function testEqual(val) {
 testEqual(10);
 testEqual(12);
 testEqual("12");
+
+//Comparison with the Strict Equality Operator
+//Сравнение с оператором строгого равенства
+// Setup
+function testStrict(val) {
+  if (val===7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
+
+
+//Practice comparing different values
+//Практика сравнения различных значений
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");v
