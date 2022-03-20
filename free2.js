@@ -42,10 +42,12 @@ function reusableFunction() {
 
 //Use Conditional Logic with If Statements
 function trueOrFalse(wasThatTrue) {
-  if (trueOrFalse) {
+  if (wasThatTrue) {
     return "Yes, that was true";
   }
   // Only change code below this line
     return "No, that was false";
   // Only change code above this line
 }
+
+trueOrFalse(false);
