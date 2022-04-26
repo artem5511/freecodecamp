@@ -394,3 +394,13 @@ function chainToSwitch(val) {
   return answer;
 }
 chainToSwitch(7);
+        Возврат логических значений из функций
+
+        function isLess(a, b) {
+            // Only change code below this line
+            return (a < b)
+        }
+        // Only change code above this line
+        isLess(10, 15);
+
+        Вернуть ранний шаблон для функций
